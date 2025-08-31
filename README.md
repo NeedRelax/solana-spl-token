@@ -1,7 +1,3 @@
-好的，根据您提供的所有代码文件（Solana Anchor 智能合约、TypeScript 测试脚本、React 前端 UI 和数据逻辑）的详细分析，这是一份符合 GitHub 标准的 `README.md` 文件，使用简体中文编写。
-
----
-
 # 全功能 SPL 代币铸造与管理平台 (Solana)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
