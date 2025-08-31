@@ -1,0 +1,30 @@
+[package]
+name = "minter"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "minter"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+custom-heap = []
+custom-panic = []
+anchor-debug = []
+idl-build = ["anchor-lang/idl-build","anchor-spl/idl-build"]
+
+
+[dependencies]
+anchor-lang = {version="0.31.1",features = ["init-if-needed"]}
+anchor-spl = "0.31.1"
+solana-program = { version = "^2.2.1", package = "solana-program" }
+bytemuck = "1.15"
+spl-token = "7.0.0"
+
+
