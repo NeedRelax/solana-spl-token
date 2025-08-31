@@ -1,5 +1,5 @@
-import CounterFeature from '@/components/counter/counter-feature'
+import MinterFeature from '@/components/minter/minter-feature'
 
 export default function Page() {
-  return <CounterFeature />
+  return <MinterFeature />
 }
